@@ -1,0 +1,78 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #000 !important;
+}
+
+/* Botão com animação */
+.btn-animado {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  transition: transform 0.3s ease;
+}
+.btn-animado:hover {
+  transform: scale(1.1);
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+/* Gavetas sem animação */
+.accordion-item {
+  background-color: #000;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.accordion-button {
+  background-color: #000;
+  color: #fff;
+  box-shadow: none;
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #000;
+  color: #fff;
+  box-shadow: none;
+  border: none;
+}
+
+.accordion-body {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+/* Ícone da setinha sempre branco */
+.accordion-button::after {
+  filter: invert(1);
+}
+.accordion-button:not(.collapsed)::after {
+  filter: invert(1);
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+/* Rodapé */
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+.top-footer {
+  margin-top: 0;
+}
